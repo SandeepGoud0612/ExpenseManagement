@@ -14,7 +14,7 @@ public interface ReceiverService {
 
 	Receiver getReceiverById(String id);
 
-	List<Receiver> getAllReceiver();
+	List<Receiver> getAllReceivers();
 
 	Receiver createReceiver(Receiver receiver);
 

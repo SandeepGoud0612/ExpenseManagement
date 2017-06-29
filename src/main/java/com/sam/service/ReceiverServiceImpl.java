@@ -36,7 +36,7 @@ public class ReceiverServiceImpl implements ReceiverService {
 	 * @see com.sam.service.ReceiverService#getAllReceiver()
 	 */
 	@Override
-	public List<Receiver> getAllReceiver() {
+	public List<Receiver> getAllReceivers() {
 		return receiverRepository.findAll();
 	}
 
